@@ -11,11 +11,13 @@ body{
     font-family: "Segoe UI",Tahoma,Arial,Verdana,sans-serif;
     position: absolute; 
     z-index: -1;
+    overflow: hidden;
     }
 
 .web{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .menu_superior{
@@ -375,7 +377,25 @@ body{
 }
 
 .destacadas{
+    display: flex;
     background-color: gold;
     width: 100%;
     height: 10vh;
+}
+
+.noticias{
+    display: flex;
+    background-color: white;
+    width: 57.8rem;
+    height: 10vh;
+    border-radius: 5px;
+}
+
+.weather{
+    display: flex;
+    background-color: white;
+    width: 18.8rem;
+    height: 10vh;
+    margin-left: 10px;
+    border-radius: 5px;
 }
