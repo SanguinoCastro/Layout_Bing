@@ -483,7 +483,7 @@ article:hover{
 .temperature{
     background-color: aquamarine;
     height: 9.5rem;
-    width: 10rem;
+    width: 100%;
     display: flex;
 }
 
@@ -505,4 +505,43 @@ article:hover{
     margin-top: 0.4rem;
     margin-left: 8px;
     color: #002C36;
+}
+
+.tempinfo{
+    display: flex;
+    flex-direction: column;
+    background-color: #777881;
+    height: 9.5rem;
+    width: 10rem;
+    margin-left: 1.05rem;
+}
+
+#nublo{
+    display: flex;
+    background-color: aqua;
+    height: 1.3rem;
+    width: 5rem;
+    align-self: flex-end;
+    font-size: 14px;
+    align-content: center;
+    justify-content: center;
+    color: #002C36;
+    margin-top: 9px;
+    margin-right: 3px;
+}
+
+#rainwind{
+    display: flex;
+    background-color: rgb(176, 241, 241);
+    height: 1.3rem;
+    width: 6.5rem;
+    align-self: flex-end;
+    margin-right: 3px;
+}
+
+#drop{
+    display: flex;
+    height: 12px;
+    align-self: center;
+    margin-left: 7.5px;
 }
