@@ -388,13 +388,66 @@ body{
     width: 57.8rem;
     height: 15vh;
     border-radius: 5px;
+    flex-direction: column;
+}
+
+#not_des{
+    font-size: 13px;
+    font-weight: 600;
+    color: #2B2B2B;
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+}
+
+.par_new{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+}
+
+.des_new{
+    display: flex;   
+    width: 45%;
+    height: 5rem;
+    margin-top: 10px;
+    margin-left: 21px;
+}
+
+.nwsppr{
+    width: 18px;
+    height: 13px;
+    margin-top: 2px;
+}
+
+.confi{
+    width: 16px;
+    height: 16px;
+}
+
+article{
+    margin-left: 7px;
+    font-weight: 600;
+    color: rgb(43 43 43);
+}
+
+article:hover{
+    text-decoration: underline;
+}
+
+.newdos{
+    margin-left: 2.85rem;
 }
 
 .weather{
     display: flex;
+    flex-direction: column;
     background-color: white;
     width: 18.8rem;
     height: 15vh;
     margin-left: 10px;
     border-radius: 5px;
+}
+
+.weather_text:hover{
+    text-decoration: underline;
 }
