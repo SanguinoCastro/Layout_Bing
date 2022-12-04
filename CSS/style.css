@@ -451,3 +451,13 @@ article:hover{
 .weather_text:hover{
     text-decoration: underline;
 }
+
+#ubi{
+    display: flex;
+    background-color: #777881;
+    height: 1rem;
+    width: 9.5rem;
+    margin-top: -10px;
+    justify-self: center;
+    align-self: center;
+}
