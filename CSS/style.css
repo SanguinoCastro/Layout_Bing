@@ -394,7 +394,7 @@ body{
 #not_des{
     font-size: 13px;
     font-weight: 600;
-    color: #2B2B2B;
+    color: #362900;
     margin-left: 1.2rem;
     margin-top: 1rem;
 }
@@ -441,7 +441,7 @@ article:hover{
 .weather{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #e7f8fc;
     width: 18.8rem;
     height: 15vh;
     margin-left: 10px;
@@ -454,10 +454,28 @@ article:hover{
 
 #ubi{
     display: flex;
-    background-color: #777881;
     height: 1rem;
     width: 9.5rem;
     margin-top: -10px;
+    font-size: 12px;
+    color: #362900;
     justify-self: center;
     align-self: center;
+    
+}
+
+#icoubi{
+    display: flex;
+    height: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+    align-self: center;
+}
+
+#icopen{
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+    align-self: center;
+    margin-bottom: 2px;
 }
