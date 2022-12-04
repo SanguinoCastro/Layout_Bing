@@ -458,7 +458,7 @@ article:hover{
     width: 9.5rem;
     margin-top: -10px;
     font-size: 12px;
-    color: #362900;
+    color: #002C36;
     justify-self: center;
     align-self: center;
     
@@ -478,4 +478,31 @@ article:hover{
     margin-left: 5px;
     align-self: center;
     margin-bottom: 2px;
+}
+
+.temperature{
+    background-color: aquamarine;
+    height: 9.5rem;
+    width: 10rem;
+    display: flex;
+}
+
+#cloud{
+    height: 31.5px;
+    margin-left: 1rem;
+    margin-top: 0.75rem;   
+}
+
+#temp{
+    font-size: 46px;
+    margin-top: -0.25rem;
+    margin-left: 2px;
+    color: #002C36;
+}
+
+#celsius{
+    font-size: 24px;
+    margin-top: 0.4rem;
+    margin-left: 8px;
+    color: #002C36;
 }
