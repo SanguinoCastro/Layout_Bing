@@ -11,3 +11,7 @@
 #### Información extra
 
 <b> El código html y CSS esá realizado para representar la principal imagen del Layaut de Bing, sin la opción de abrir las noticias pertinente ni hacer scroll por las multiples noticias que muestra Bing en su buscador.
+
+### Insturcciones de instalación
+
+<b> Descargue el .Zip, descomprimalo en una carpeta y abra el archivo index.html en su buscador de preferencia.
